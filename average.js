@@ -8,3 +8,6 @@ function averageScores(scoresArray){
         return scores/scores.length;
     }
 }
+
+averageScores(scores);
+averageScores(scores2);
