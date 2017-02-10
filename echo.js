@@ -3,3 +3,6 @@ function echo(string, number){ //don't need to declai var types as part of param
 		console.log(string);
 	}
 }
+
+echo("Echo!!", 10);
+echo("Tater Tots", 3);
