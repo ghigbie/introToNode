@@ -7,7 +7,6 @@ function averageScores(scoresArray){
         scores+= scoresArray[i];
     }
     scores = Math.round(scores/scoresArray.length);
-    console.log("The average is " + scores);
     return scores;
 }
 
@@ -18,12 +17,11 @@ function average2(scoresArray){
     });
     var avg = total/scoresArray.length;
     avg = Math.round(avg);
-    console.log(`The average is ${avg}`);
     return avg;
 }
 
-averageScores(scores);
-averageScores(scores2);
+console.log(averageScores(scores));
+console.log(averageScores(scores2));
 console.log("*************");
-average2(scores);
-average2(scores2);
+console.log(average2(scores));
+console.log(average2(scores2));
