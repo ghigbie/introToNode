@@ -7,7 +7,8 @@ function averageScores(scoresArray){
         scores+= scoresArray[i];
     }
     scores = scores/scoresArray.length;
-    return scores
+    console.log("The average is " + scores);
+    return scores;
 }
 
 averageScores(scores);
