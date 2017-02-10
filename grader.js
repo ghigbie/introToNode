@@ -17,7 +17,9 @@ function average2(scoresArray){
         total += score;
     });
     var avg = total/scores.length;
-    return Math.round(avg);
+    avg = Math.round(avg);
+    console.log(`The average is ${avg}`);
+    return avg;
 }
 
 averageScores(scores);
