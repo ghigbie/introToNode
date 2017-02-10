@@ -16,7 +16,7 @@ function average2(scoresArray){
     scoresArray.forEach(function(score){
         total += score;
     });
-    var avg = total/scores.length;
+    var avg = total/scoresArray.length;
     avg = Math.round(avg);
     console.log(`The average is ${avg}`);
     return avg;
