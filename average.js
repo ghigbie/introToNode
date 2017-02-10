@@ -5,8 +5,8 @@ function averageScores(scoresArray){
     var scores = 0;
     for(var i = 0; i < scoresArray.length; i++){
         scores+= scoresArray[i];
-        return scores/scores.length;
     }
+    return scores/scores.length;
 }
 
 averageScores(scores);
