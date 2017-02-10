@@ -11,5 +11,15 @@ function averageScores(scoresArray){
     return scores;
 }
 
+function average2(scoresArray){
+    var total = 0;
+    scoresArray.forEach(function(score){
+        total += score;
+    });
+    var avg = toal/scores.length;
+    return Math.round(avg);
+}
+
 averageScores(scores);
 averageScores(scores2);
+
