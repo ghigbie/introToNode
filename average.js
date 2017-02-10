@@ -6,7 +6,7 @@ function averageScores(scoresArray){
     for(var i = 0; i < scoresArray.length; i++){
         scores+= scoresArray[i];
     }
-    scores = Math.floor(scores/scoresArray.length);
+    scores = Math.round(scores/scoresArray.length);
     console.log("The average is " + scores);
     return scores;
 }
